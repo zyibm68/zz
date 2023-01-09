@@ -43,11 +43,12 @@
     ],
     "YSDQ": {
         "thlimit": 5, 
+        "speedLimit":"512K",
         "searchList":"qq,ik,bw,ld,bb,ps,ys,zzy,xzt",
         "ocrurl": "https://api.nn.ci/ocr/b64/text"
     },
     "Ali": {
-        "token": "https://ghproxy.com/https://raw.githubusercontent.com/zyibm68/zz/main/token.json"
+        "token": "http://ali.饭太硬.ml/tok"
     },
     "Bili": {
         "cookie": "https://raw.iqiq.io/lm317379829/PyramidStore/pyramid/cookie.txt", 
