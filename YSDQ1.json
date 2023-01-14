@@ -28,32 +28,44 @@
         "文文": "http://518p8g7316.goho.co:5244",
         "博哥": "http://www.top12345.top"
     },
+     "YSDQ": {
+        "thlimit": 5, 
+        "searchList":"qq,ik,bb,ps,ys,zzy,xzt",
+        "speedLimit":"1K",
+        "disableIPV6":"yes",
+        "ocrurl": "https://api.nn.ci/ocr/b64/text", 
+        "T4api": [
+          {
+            "name":"网飞", 
+            "api":"http://81.68.89.191:60007/6rse/{id}/{secret}/yanet"
+            }, 
+            {
+              "name":"明日", 
+              "api":"http://81.68.89.191:60007/6rse/{id}/{secret}/mrys"      
+            }
+        ]
+    },
+    "Ali": {
+        "token": "https://ghproxy.com/https://raw.githubusercontent.com/zyibm68/zz/main/token.json"
+        
+    },
     "QiQi":[ 
+        {
+          "jx":"http://110.42.2.115:880/analysis/json/?uid=2100&my=XXXXXXXX&mgtv=app&url=",
+          "gs":"url",
+          "jxfrom":"QiQi",
+          "erro":"500"
+          },
         {
           "jx":"http://lanlan.ckflv.cn/?url=",
           "jxfrom":"other",
           "gs":"data,url",
           "erro":""
-          },
-        {
-          "jx":"http://lanlan.ckflv.cn/?url=",
-          "gs":"data,url",
-          "jxfrom":"QiQi",
-          "erro":"解析失败"
           }
     ],
-    "YSDQ": {
-        "thlimit": 5, 
-        "speedLimit":"512K",
-        "searchList":"qq,ik,bw,ld,bb,ps,ys,zzy,xzt",
-        "ocrurl": "https://api.nn.ci/ocr/b64/text"
-    },
-    "Ali": {
-        "token": "https://ghproxy.com/https://raw.githubusercontent.com/zyibm68/zz/main/token.json"
-    },
     "Bili": {
-        "cookie": "https://raw.iqiq.io/lm317379829/PyramidStore/pyramid/cookie.txt", 
-        "category": "纪录片,纪录片|相声,相声小品"
+        "cookie": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt", 
+        "category": "健身,刘畊宏 9月21日|相声,相声小品"
     },
     "Zhaozy": {
         "username": "Unbaked4136", 
