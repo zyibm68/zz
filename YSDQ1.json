@@ -33,9 +33,9 @@
         
     },
      "YSDQ": {
-        "thlimit": 200, 
+        "thlimit": 100, 
         "searchList":"qq,ik,bb,ps,ys,zzy,xzt",
-        "speedLimit":"1K",
+        "speedLimit":"150K",
         "disableIPV6":"no",
         "ocrurl": "https://api.nn.ci/ocr/b64/text", 
         "T4api": [
