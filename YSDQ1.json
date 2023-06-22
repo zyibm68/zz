@@ -34,69 +34,62 @@
         "姬路白雪": "https://pan.jlbx.xyz"
         
     },
-     "YSDQ": {
-        "thlimit": 5, 
-        "searchList":"qq,ik,bb,ps,ys,zzy,xzt",
-        "speedLimit":"1K",
-        "disableIPV6":"yes",
-        "ocrurl": "https://api.nn.ci/ocr/b64/text", 
-        "T4api": [
-          {
-            "name":"网飞", 
-            "api":"http://81.68.89.191:60007/6rse/{id}/{secret}/yanet"
-            }, 
-            {
-              "name":"明日", 
-              "api":"http://81.68.89.191:60007/6rse/{id}/{secret}/mrys"      
-            }
-        ]
-    },
-    "Ali": {
-        "token": "https://ghproxy.net/https://raw.githubusercontent.com/zyibm68/zz/main/token.json"
-        
-    },
-    "QiQi":[ 
-        {
-          "jx":"http://110.42.2.115:880/analysis/json/?uid=2100&my=XXXXXXXX&mgtv=app&url=",
-          "gs":"url",
-          "jxfrom":"QiQi",
-          "erro":"500"
-          },
-        {
-          "jx":"http://lanlan.ckflv.cn/?url=",
-          "jxfrom":"other",
-          "gs":"data,url",
-          "erro":""
-          }
-    ],
-    "Bili": {
-        "cookie": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt", 
-        "category": "健身,刘畊宏 9月21日|相声,相声小品"
-    },
-    "Zhaozy": {
-        "username": "Unbaked4136", 
-        "password": "4hzxQkB9yxX5EP"
-    },
-    "Zhibo": [
-        {
-            "pf": "douyu",
-            "id": "208",
-            "name": "斗鱼-一起看"
-        },
-        {
-            "pf": "bilibili",
-            "id": "6",
-            "name": "B站-单机游戏"
-        },
-        {
-            "pf": "huya",
-            "id": "2135",
-            "name": "虎牙-一起看"
-        },
-        {
-            "pf": "sport",
-            "id": "sport",
-            "name": "体育-全部"
-        }
+     "Ali": {
+    "token": "https://ghproxy.net/https://raw.githubusercontent.com/zyibm68/zz/main/token.json"
+  },
+  "YSDQ": {
+    "thlimit": 5,
+    "searchList": "qq,cz,bb,ps,tg,zzy",
+    "speedLimit": "1K",
+    "disableIPV6": "no",
+    "ocrurl": "https://ddddocr.lm317379829.repl.co",
+    "CJapi": [
+      {
+        "name": "量子",
+        "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/"
+      },
+      {
+        "name": "非凡",
+        "api": "https://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/"
+      }
     ]
+  },
+  "QiQi": [
+    {
+      "jx": "http://110.42.2.247:880/analysis/json/?uid=2056&my=efjkmvBGHILMSUWXY0&url=",
+      "jxfrom": "other",
+      "gs": "url",
+      "erro": "无url"
+    }
+  ],
+  "Bili": {
+    "cookie": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt",
+    "category": "健身,刘畊宏 9月21日|相声,相声小品"
+  },
+  "Zhaozy": {
+    "username": "Moaner1300",
+    "password": "wCM8Xg!Hn$cf"
+  },
+  "Zhibo": [
+    {
+      "pf": "douyu",
+      "id": "208",
+      "name": "斗鱼-一起看"
+    },
+    {
+      "pf": "bilibili",
+      "id": "6",
+      "name": "B站-单机游戏"
+    },
+    {
+      "pf": "huya",
+      "id": "2135",
+      "name": "虎牙-一起看"
+    },
+    {
+      "pf": "sport",
+      "id": "sport",
+      "name": "体育-全部"
+    }
+  ]
 }
